@@ -1,11 +1,10 @@
 # GetStockPrice
-Bash script using Yahoo and Twilio API to receive stock price
 
 Script to recieve stock prices via sms at specific time of the day.
 
-This script was created to know what is the current market price of the stock when I wake up and before the market closes, via sms. The reason being, this information would come in handy if I wanted to buy or sell shares after I wake up and/ before the market closes.
+This script was created to know what is the current market price of the stock in the morning and before the market closes, via sms. The reason being, this information would come in handy if I wanted to buy or sell shares.
 
-This script is written in bash and uses the following API(s):
+The script is written in bash and uses the following API(s):
 a. Yahoo API to get the stock tiker's price
 b. Twilio API to send sms to the verified numbers.
 
