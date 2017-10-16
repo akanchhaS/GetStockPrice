@@ -28,7 +28,7 @@ for number in "${phnum[@]}"
 	do
 		curl 'https://api.twilio.com/2010-04-01/Accounts/AC5420ccc34e76152d5c665ef792e860d7/Messages.json' -X POST \
 		--data-urlencode 'To='$number \
-		--data-urlencode 'From=+14807717264' \
+		--data-urlencode 'From=<YOUR_TWILIO_NUMBER>' \
 		--data-urlencode 'Body=Current price'$finbody \
 		-u <ACCOUNT_SID>:<AUTH_TOKEN_KEY>
 		echo "message sent to"$number 
